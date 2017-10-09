@@ -1477,7 +1477,7 @@ p.tagline,
     width: 100%;
   }
   .page .page-inner {
-    padding: 80px 0;
+    /* padding: 80px 0; */
   }
   .page .detail-info {
     padding-top: 0;

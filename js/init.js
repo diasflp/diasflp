@@ -1,5 +1,11 @@
 "use strict";
 
+var isMobile = false;
+
+if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	isMobile = true;
+}
+
 /*****Ready function start*****/
 $(document).ready(function () {
 	notifyForm();
@@ -18,8 +24,10 @@ $(window).load(function () {
 
 /***** Full height function start *****/
 var setHeight = function () {
-	var height = $(window).height();
-	$('.full-height').css('min-height', (height));
+	if (isMobile == false) {
+		var height = $(window).height();
+		$('.full-height').css('min-height', (height));
+	}
 };
 /***** Full height function end *****/
 
