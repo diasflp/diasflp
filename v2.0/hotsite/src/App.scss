@@ -1,33 +1,130 @@
-.App {
+.content {
+  margin: 10px 50px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+section {
+  margin: 20px 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.style_hello {
+  color: #b6ff00;
+  font: 100 45px "Vibur";
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
+.avatar {
+  box-shadow: 0 0 10px #b6ff00, 0 0 10px #b6ff00, 0 0 15px #b6ff00;
+  background-image: url(/static/media/avatar.f1e9a699.jpg);
+  width: 150px;
+  height: 140px;
+  border-radius: 370px;
+  background-size: 140px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.style_text {
+  color: #b6ff00;
+  font: 100 25px "Pacifico";
+}
+
+.box_skills {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  // border: 3px solid;
+  position: fixed;
+  bottom: 0;
+  // -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  // -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  // animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
   from {
-    transform: rotate(0deg);
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
+
   to {
-    transform: rotate(360deg);
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+.text_style b {
+  font: 100 10vh "Vibur";
+  color: #fff;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
+    0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+.text_style b span {
+  animation: blink linear infinite 2s;
+}
+
+.scss_lover {
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon_text 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon_text 1.5s ease-in-out infinite alternate;
+  animation: neon_text 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon_text {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  79% {
+    color: #333;
+  }
+
+  80% {
+    text-shadow: none;
+  }
+
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
   }
 }
