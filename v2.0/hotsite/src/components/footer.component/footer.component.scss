@@ -1,0 +1,17 @@
+@import "../../styles/animation.scss";
+
+.footer {
+    width: 100%;
+    // border: 3px solid;
+    position: fixed;
+    bottom: 0;
+    // -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    // -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    // animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.scss_lover {
+    color: #fff;
+    font-family: Monoton;
+    @extend %neon_text;
+}

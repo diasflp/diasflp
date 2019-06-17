@@ -1,0 +1,29 @@
+.content {
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.avatar {
+    box-shadow: 0 0 10px #b6ff00, 0 0 10px #b6ff00, 0 0 15px #b6ff00;
+    background-image: url("../../avatar.jpg");
+    width: 150px;
+    height: 140px;
+    border-radius: 370px;
+    background-size: 140px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.style_text {
+    color: #b6ff00;
+    font: 100 25px "Pacifico";
+}
+
+.style_hello {
+    color: #b6ff00;
+    font: 100 45px "Vibur";
+}
+
+.box_skills {
+    text-align: center;
+}
