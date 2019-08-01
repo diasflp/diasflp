@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./main.component.scss";
+import React, { Component } from 'react';
+import './main.component.scss';
 
 class mainComponent extends Component {
   render() {
