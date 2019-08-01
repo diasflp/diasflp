@@ -6,10 +6,11 @@ class mainComponent extends Component {
     return (
       <div className="content flex-justify-space-between row start-xs">
         <div
-          className="col-xs-12
-                col-sm-6
-                col-md-6
-                col-lg-6"
+          className="
+            col-xs-12
+            col-sm-6
+            col-md-6 
+            col-lg-6"
         >
           <p className="style_hello">
             Hello, my name is Felipe Dias and I am a front-end developer.
@@ -17,10 +18,11 @@ class mainComponent extends Component {
           <div className="avatar" />
         </div>
         <div
-          className="col-xs-12
-                col-sm-6
-                col-md-6
-                col-lg-6 box_skills"
+          className="
+            col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6 box_skills"
         >
           <p className="style_text">Skills</p>
         </div>
